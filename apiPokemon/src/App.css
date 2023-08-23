@@ -40,3 +40,9 @@
 .read-the-docs {
   color: #888;
 }
+.fondo{
+  background: #fff url(../src/assets/pokemon.png) center center/cover no-repeat;
+}
+.color{
+  color: #fff;
+}

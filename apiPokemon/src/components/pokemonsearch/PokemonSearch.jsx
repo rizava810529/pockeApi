@@ -6,7 +6,7 @@ function PokemonSearch({ onSearch }) {
   const handleSearch = () => {
     onSearch(`name=${searchTerm}`);
   };
-
+  
   return (
     <div className='h-100 d-flex justify-content-center align-items-center m-4 gap-5'>
       <input
@@ -15,7 +15,7 @@ function PokemonSearch({ onSearch }) {
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
       />
-      <button onClick={handleSearch}>Buscar</button>
+      <button className='prymary' onClick={handleSearch}>Buscar</button>
     </div>
   );
 }
